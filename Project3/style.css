@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+#nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+    padding: 45px 65px  ;
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%; 
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%; 
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 540;
+}
+#nav h2{
+    font-size: 25px;
+    font-weight: 540;
+}
+#nav h4{
+    font-size: 25px;
+    font-weight: 540;
+}
+
+#content {
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    margin-top: 40px;
+    font-size: 158px;
+    line-height: 165px;
+    font-weight: 500;
+    letter-spacing: -8px;
+    word-spacing: 10px;
+} 
+
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4 {
+    font-size: 26px;
+    font-weight: 500 ;
+}
+#case h5{
+  font-size: 26px;
+  font-weight: 600 ;  
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 100px; 
+    background-color: #000;
+}
+#projects{
+    /* background-color: red */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 6 0px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    height: 650px;
+    background-color: rgba(139, 188, 195, 0.795);
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    padding: 9px;
+}
+#img1 img{
+    height: 100%;
+    width: 860px;
+    /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sketch_Logo.svg/2267px-Sketch_Logo.svg.png); */
+
+    
+}
+#img2 img{
+    height: 100%;
+    width: 860px;
+    border-radius: 30px;
+    /* background-image: url(https://cdn.dribbble.com/users/8516459/screenshots/16768342/media/e8e97ac1847d9451fe0bf82e62ddccab.png?resize=1000x750&vertical=center); */
+}
+
+.bottom{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   padding: 40px 0;
+}
+
+.bottom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.bottom i:hover{
+    background-color: #000;
+    color: #fff;
+}
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 20px;
+    color: #969696;
+    font-weight: 500;
+}
